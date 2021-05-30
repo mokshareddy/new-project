@@ -98,11 +98,6 @@ body {
   padding: 0;
 }
 
-.header-navigation a:hover:after,
-.header-navigation button:hover:after {
-  transform: scalex(1);
-}
-
 .header-navigation a:after,
 .header-navigation button:after {
   transition: 0.25s ease;
@@ -184,8 +179,9 @@ body {
   padding: 0.4em;
 }
 
-.login-button :hover{
-  background: transparent linear-gradient(90deg, #9F62C9 0%, #663399 100%) 0% 0% no-repeat padding-box;
+.login-button:hover{
+  background-color: #663399;
+  color: #ffffff !important;
 }
 
 .get-started-button{
@@ -202,6 +198,12 @@ body {
   justify-content: center;
   padding: 0.4em;
 }
+
+.get-started-button:hover{
+  background-color: #663399;
+  color: #ffffff !important;
+}
+
 
 .container-fluid{
   top: 0px;
@@ -593,7 +595,7 @@ body {
 
 .panel-on-hover:hover{
   cursor: pointer;
-  box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+  background: transparent linear-gradient(90deg, #9F62C9 0%, #663399 100%) 0% 0% no-repeat padding-box;
 }
 
 .text-center{
